@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "proxy": "https://weatherapi-np88.onrender.com",
+  "proxy": "https://weatherapi-thty.onrender.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
