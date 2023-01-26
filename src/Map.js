@@ -1,7 +1,6 @@
 import {MapContainer,TileLayer,Marker,Popup} from 'react-leaflet';
 import React, { useEffect, useState } from 'react';
-import {Icon, map} from 'leaflet';
-import {L} from 'leaflet';
+import {Icon} from 'leaflet';
 const position = [22.5937, 78.9629]
 
 
@@ -35,7 +34,7 @@ function Map({pageNum}) {
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
-  {/* This is conditional operator that will display the BAckend data in the page */}
+  {/* This is conditional operator that will display the BAckend data */}
    {(typeof backendData.users==='undefined')?(
       <p>Loading...</p>
     ):( 
